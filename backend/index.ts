@@ -9,7 +9,7 @@ import dataRoutes from './src/routes/data';
 app.use('/data', dataRoutes);
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => console.log(`Server running ${PORT}`))
 
 //no puedo usar typescript

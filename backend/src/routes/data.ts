@@ -5,7 +5,7 @@ const router  = express.Router();
 
 const studentHttpHandler= new StudentHttpHandler();
 
-router.get('/:id', studentHttpHandler.getAllStudents);
+router.get('/', studentHttpHandler.getAllStudents);
 
 
 
